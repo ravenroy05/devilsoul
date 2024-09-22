@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artists</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            color: #f1f1f1;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: #ecf0f1; /* Lighter color for the heading */
+        }
+
+        .link-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ecf0f1; /* Light color for links */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #1a73e8; /* Change color on hover */
+        }
+
+        .link-section img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .link-section img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .link-section span {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+     <link rel="icon" type="image/jpg" href="images.jpeg">
+</head>
+<body>
+    <h1><i>Artists</i></h1>
+
+    <div class="link-section">
+        <a href="adele.html" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/76/Adele_-_30.png" alt="Adele">
+            <span>Adele</span>
+        </a>
+        <a href="kendrick.html" target="_blank">
+            <img src="https://thumbnailer.mixcloud.com/unsafe/200x200/extaudio/e/b/b/a/cfa7-3914-47c0-a84b-85fcb044f6f3" alt="Kendrick Lamar">
+            <span>Kendrick Lamar</span>
+        </a>
+        <a href="tyler.html" target="_blank">
+            <img src="https://static.billets.ca/artist/tyn/s1/tyler-the-creator-200x200.jpg" alt="Tyler The Creator">
+            <span>Tyler The Creator</span>
+        </a>
+        <a href="bollywood.html" target="_blank">
+            <img src="https://a10.gaanacdn.com/gn_img/artists/D0PKLqr3Gl/0PKLqkw3Gl/size_m_1714045420.jpg" alt="Bollywood Classics">
+            <span>Bollywood Classics</span>
+        </a>
+    </div>
+
+</body>
+</html>

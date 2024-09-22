@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k.dot</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            color: #f1f1f1;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px; /* Added padding to avoid edge-to-edge content */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: #ecf0f1; /* Light color for heading */
+        }
+
+        .link-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px; /* Limit the maximum width */
+            width: 100%;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ecf0f1; /* Light color for links */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #1a73e8; /* Change color on hover */
+        }
+
+        .link-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .link-section img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .link-section span {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+     <link rel="icon" type="image/jpg" href="images.jpeg">
+</head>
+<body>
+    <h1><i>kung fu kenny</i></h1>
+
+    <div class="link-section">
+        <a href="moneytrees.html" target="_blank">
+            <img src="https://m.media-amazon.com/images/I/71Im6AjT1fL._AC_UF894,1000_QL80_.jpg" alt="moneytrees">
+            <span>moneytrees</span>
+        </a>
+        <a href="b dont kill my vibe.html" target="_blank">
+            <img src="https://i.scdn.co/image/ab67616d0000b273d28d2ebdedb220e479743797" alt="b dont kill my vibe">
+            <span>b dont kill my vibe</span>
+        </a>
+        <a href="not like us.html" target="_blank">
+            <img src="https://i.scdn.co/image/ab67616d00001e021ea0c62b2339cbf493a999ad" alt="not like us">
+            <span>not like us</span>
+        </a>
+    </div>
+</body>
+</html>

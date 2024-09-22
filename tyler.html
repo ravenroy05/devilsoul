@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tyler</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            color: #f1f1f1;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px; /* Added padding to avoid edge-to-edge content */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: #ecf0f1; /* Light color for heading */
+        }
+
+        .link-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px; /* Limit the maximum width */
+            width: 100%;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ecf0f1; /* Light color for links */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #1a73e8; /* Change color on hover */
+        }
+
+        .link-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .link-section img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .link-section span {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+     <link rel="icon" type="image/jpg" href="images.jpeg">
+</head>
+<body>
+    <h1><i>Creator</i></h1>
+
+    <div class="link-section">
+        <a href="EARFQUAKE.html" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Tyler%2C_the_Creator_-_Earfquake_%28Channel_Tres_remix%29.jpg" alt="EARFQUAKE">
+            <span>EARFQUAKE</span>
+        </a>
+        <a href="GONE, GONE _ THANK YOU" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg" alt=" GONE, GONE _ THANK YOU">
+            <span> GONE, GONE _ THANK YOU</span>
+        </a>
+        <a href="AUNT WANG SYRUP.html" target="_blank">
+            <img src="https://e.snmc.io/i/600/s/f4fed377c6b30a166222b0157a5a1593/5338029/tyler-the-creator-aunt-wang-syrup-theme-song-Cover-Art.png" alt="AUNT WANG SYRUP">
+            <span>AUNT WANG SYRUP</span>
+        </a>
+    </div>
+</body>
+</html>
